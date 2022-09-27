@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<!--
+  License: CC-BY-4.0 <https://creativecommons.org/licenses/by/4.0/>
+  GitHub: https://github.com/traintastic/lncv
+  Author(s): Reinder Feenstra
+-->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:simpleType name="language">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[a-z]{2}-[a-z]{2}"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:element name="name">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:string">
+          <xs:attribute name="language" type="language" use="optional"/>
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="lncvmodule">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="vendor" type="xs:string"/>
+        <xs:element ref="name" minOccurs="1" maxOccurs="unbounded"/>
+        <xs:element name="lncv" minOccurs="1" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element ref="name" minOccurs="1" maxOccurs="unbounded"/>
+              <xs:element name="value">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="option" minOccurs="0" maxOccurs="unbounded">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element ref="name" minOccurs="0" maxOccurs="unbounded"/>
+                        </xs:sequence>
+                        <xs:attribute name="value" type="xs:unsignedShort" use="required"/>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                  <xs:attribute name="default" type="xs:unsignedShort" use="optional"/>
+                  <xs:attribute name="min" type="xs:unsignedShort" use="optional"/>
+                  <xs:attribute name="max" type="xs:unsignedShort" use="optional"/>
+                  <xs:attribute name="gain" type="xs:double" use="optional"/>
+                  <xs:attribute name="offset" type="xs:double" use="optional"/>
+                  <xs:attribute name="unit" type="xs:string" use="optional"/>
+                  <xs:attribute name="readonly" type="xs:boolean" use="optional"/>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute name="lncv" type="xs:unsignedShort" use="required"/>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+      <xs:attribute name="id" type="xs:unsignedShort" use="required"/>
+    </xs:complexType>
+  </xs:element>
+
+</xs:schema>
