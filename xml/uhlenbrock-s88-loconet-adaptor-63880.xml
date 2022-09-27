@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  License: CC-BY-4.0 <https://creativecommons.org/licenses/by/4.0/>
+  GitHub: https://github.com/traintastic/lncv
+  Author(s): Reinder Feenstra
+-->
+<lncvmodule id="6388" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="lncvmodule.xsd">
+  <vendor>Uhlenbrock</vendor>
+  <name language="en-us">S88 LocoNet adaptor 63880</name>
+  <name language="de-de">S88 LocoNet Adapter 63880</name>
+  <name language="nl-nl">S88 LocoNet adapter 63880</name>
+  <lncv lncv="0">
+    <name language="en-us">Module address</name>
+    <name language="de-de">Moduladresse</name>
+    <name language="nl-nl">Module-adres</name>
+    <value default="1" min="1" max="65535"/>
+  </lncv>
+  <lncv lncv="1">
+    <name language="en-us">Version</name>
+    <name language="de-de">Version</name>
+    <name language="nl-nl">Versie</name>
+    <value readonly="true"/>
+  </lncv>
+  <lncv lncv="2">
+    <name language="en-us">Startup time</name>
+    <name language="de-de">Startup Zeit</name>
+    <name language="nl-nl">Opstart tijd</name>
+    <value default="20" max="255" gain="0.5" unit="s"/>
+  </lncv>
+  <lncv lncv="3">
+    <name language="en-us">Number of connected S88 modules</name>
+    <name language="de-de">Anzahl der angeschlossenen S88 Module</name>
+    <name language="nl-nl">Aantal aangesloten S88 modules</name>
+    <value default="31" min="1" max="31"/>
+  </lncv>
+  <lncv lncv="4">
+    <name language="en-us">Base address</name>
+    <name language="de-de">Basisadresse</name>
+    <name language="nl-nl">Basisadres</name>
+    <value default="1" min="1" max="2048"/>
+  </lncv>
+</lncvmodule>
