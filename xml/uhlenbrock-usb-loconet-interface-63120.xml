@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  License: CC-BY-4.0 <https://creativecommons.org/licenses/by/4.0/>
+  GitHub: https://github.com/traintastic/lncv
+  Author(s): Reinder Feenstra
+-->
+<lncvmodule id="6312" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="lncvmodule.xsd">
+  <vendor>Uhlenbrock</vendor>
+  <name language="en-us">USB LocoNet interface 68610</name>
+  <lncv lncv="0">
+    <name language="en-us">Module address</name>
+    <value default="1"/>
+  </lncv>
+  <lncv lncv="1">
+    <name language="en-us">Software version</name>
+    <value readonly="true"/>
+  </lncv>
+  <lncv lncv="2">
+    <name language="en-us">Baudrate</name>
+    <value default="4">
+      <option value="1">
+        <name>19200</name>
+      </option>
+      <option value="2">
+        <name>38400</name>
+      </option>
+      <option value="3">
+        <name>57600</name>
+      </option>
+      <option value="4">
+        <name>115200</name>
+      </option>
+    </value>
+  </lncv>
+  <lncv lncv="4">
+    <name language="en-us">LocoNet direct mode</name>
+    <value default="0">
+      <option value="0">
+        <name language="en-us">Off</name>
+      </option>
+      <option value="1">
+        <name language="en-us">On</name>
+      </option>
+    </value>
+  </lncv>
+</lncvmodule>
