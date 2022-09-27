@@ -3,7 +3,7 @@ name: XML lint
 on: push
 
 jobs:
-  build:
+  lint:
     runs-on: ubuntu-latest
 
     steps:
@@ -12,7 +12,7 @@ jobs:
       - name: Install packages
         run: |
           sudo apt update
-          sudo apt install xmllint
+          sudo apt install libxml2-utils
 
       - name: XML lint
         run: xmllint --schema ${{github.workspace}}/xml/lncvmodule.xsd --noout ${{github.workspace}}/xml/*.xml
