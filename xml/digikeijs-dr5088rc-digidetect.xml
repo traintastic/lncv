@@ -1,0 +1,481 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  License: CC-BY-4.0 <https://creativecommons.org/licenses/by/4.0/>
+  GitHub: https://github.com/traintastic/lncv
+  Author(s): Reinder Feenstra
+-->
+<lncvmodule id="5088" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="lncvmodule.xsd">
+  <vendor>Digikeijs</vendor>
+  <name>DR5088RC</name>
+  <lncv lncv="0">
+    <name language="en-us">Module address</name>
+    <name language="de-de">Moduladresse</name>
+    <value/>
+  </lncv>
+  <lncv lncv="1">
+    <name language="en-us">Firmware version</name>
+    <value/>
+  </lncv>
+  <lncv lncv="3">
+    <name language="en-us">LocoNet report or direction</name>
+    <value>
+      <option value="0">
+        <name language="en-us">No direction</name>
+      </option>
+      <option value="1">
+      </option>
+      <option value="2">
+      </option>
+    </value>
+  </lncv>
+  <lncv lncv="4">
+    <name language="en-us">Configuration</name>
+    <value/>
+  </lncv>
+  <lncv lncv="5">
+    <name language="en-us">Power on delay</name>
+    <value default="1000" min="0" max="8000" unit="ms"/>
+  </lncv>
+  <lncv lncv="6">
+    <name language="en-us">Occupancy detection count</name>
+    <value default="15" min="5" max="31"/>
+  </lncv>
+  <lncv lncv="7">
+    <name language="en-us">Polarity detection count</name>
+    <value default="2" min="1" max="7"/>
+  </lncv>
+  <lncv lncv="8">
+    <name language="en-us">Polarity detection delay</name>
+    <value default="250" min="15" max="2000" unit="ms"/>
+  </lncv>
+  <lncv lncv="9">
+    <name language="en-us">Multiplexer switch time</name>
+    <value default="33" min="5" max="100" unit="ms"/>
+  </lncv>
+  <lncv lncv="10">
+    <name language="en-us">QoS suppress</name>
+    <value default="10" min="0" max="100"/>
+  </lncv>
+  <lncv lncv="11">
+    <name language="en-us">QoS delta</name>
+    <value default="5" min="0" max="100"/>
+  </lncv>
+  <lncv lncv="12">
+    <name language="en-us">Speed delta</name>
+    <value default="3" min="0" max="100"/>
+  </lncv>
+  <lncv lncv="100">
+    <name language="en-us">Quick setup for feedback addresses with autonumbering</name>
+    <value default="1" min="1" max="2048"/>
+  </lncv>
+  <lncv lncv="101">
+    <name language="en-us">Feedback address input 1</name>
+    <value default="1" min="1" max="2048"/>
+  </lncv>
+  <lncv lncv="102">
+    <name language="en-us">Feedback address input 2</name>
+    <value default="1" min="1" max="2048"/>
+  </lncv>
+  <lncv lncv="103">
+    <name language="en-us">Feedback address input 3</name>
+    <value default="1" min="1" max="2048"/>
+  </lncv>
+  <lncv lncv="104">
+    <name language="en-us">Feedback address input 4</name>
+    <value default="1" min="1" max="2048"/>
+  </lncv>
+  <lncv lncv="105">
+    <name language="en-us">Feedback address input 5</name>
+    <value default="1" min="1" max="2048"/>
+  </lncv>
+  <lncv lncv="106">
+    <name language="en-us">Feedback address input 6</name>
+    <value default="1" min="1" max="2048"/>
+  </lncv>
+  <lncv lncv="107">
+    <name language="en-us">Feedback address input 7</name>
+    <value default="1" min="1" max="2048"/>
+  </lncv>
+  <lncv lncv="108">
+    <name language="en-us">Feedback address input 8</name>
+    <value default="1" min="1" max="2048"/>
+  </lncv>
+  <lncv lncv="109">
+    <name language="en-us">Feedback address input 9</name>
+    <value default="1" min="1" max="2048"/>
+  </lncv>
+  <lncv lncv="110">
+    <name language="en-us">Feedback address input 10</name>
+    <value default="1" min="1" max="2048"/>
+  </lncv>
+  <lncv lncv="111">
+    <name language="en-us">Feedback address input 11</name>
+    <value default="1" min="1" max="2048"/>
+  </lncv>
+  <lncv lncv="112">
+    <name language="en-us">Feedback address input 12</name>
+    <value default="1" min="1" max="2048"/>
+  </lncv>
+  <lncv lncv="113">
+    <name language="en-us">Feedback address input 13</name>
+    <value default="1" min="1" max="2048"/>
+  </lncv>
+  <lncv lncv="114">
+    <name language="en-us">Feedback address input 14</name>
+    <value default="1" min="1" max="2048"/>
+  </lncv>
+  <lncv lncv="115">
+    <name language="en-us">Feedback address input 15</name>
+    <value default="1" min="1" max="2048"/>
+  </lncv>
+  <lncv lncv="116">
+    <name language="en-us">Feedback address input 16</name>
+    <value default="1" min="1" max="2048"/>
+  </lncv>
+  <lncv lncv="117">
+    <name language="en-us">Feedback address global input</name>
+    <value default="1" min="1" max="2048"/>
+  </lncv>
+  <lncv lncv="200">
+    <name language="en-us">Quick setup for block addresses with autonumbering</name>
+    <value default="1" min="1" max="2048"/>
+  </lncv>
+  <lncv lncv="201">
+    <name language="en-us">Block address input 1</name>
+    <value default="1" min="1" max="2048"/>
+  </lncv>
+  <lncv lncv="202">
+    <name language="en-us">Block address input 2</name>
+    <value default="1" min="1" max="2048"/>
+  </lncv>
+  <lncv lncv="203">
+    <name language="en-us">Block address input 3</name>
+    <value default="1" min="1" max="2048"/>
+  </lncv>
+  <lncv lncv="204">
+    <name language="en-us">Block address input 4</name>
+    <value default="1" min="1" max="2048"/>
+  </lncv>
+  <lncv lncv="205">
+    <name language="en-us">Block address input 5</name>
+    <value default="1" min="1" max="2048"/>
+  </lncv>
+  <lncv lncv="206">
+    <name language="en-us">Block address input 6</name>
+    <value default="1" min="1" max="2048"/>
+  </lncv>
+  <lncv lncv="207">
+    <name language="en-us">Block address input 7</name>
+    <value default="1" min="1" max="2048"/>
+  </lncv>
+  <lncv lncv="208">
+    <name language="en-us">Block address input 8</name>
+    <value default="1" min="1" max="2048"/>
+  </lncv>
+  <lncv lncv="209">
+    <name language="en-us">Block address input 9</name>
+    <value default="1" min="1" max="2048"/>
+  </lncv>
+  <lncv lncv="210">
+    <name language="en-us">Block address input 10</name>
+    <value default="1" min="1" max="2048"/>
+  </lncv>
+  <lncv lncv="211">
+    <name language="en-us">Block address input 11</name>
+    <value default="1" min="1" max="2048"/>
+  </lncv>
+  <lncv lncv="212">
+    <name language="en-us">Block address input 12</name>
+    <value default="1" min="1" max="2048"/>
+  </lncv>
+  <lncv lncv="213">
+    <name language="en-us">Block address input 13</name>
+    <value default="1" min="1" max="2048"/>
+  </lncv>
+  <lncv lncv="214">
+    <name language="en-us">Block address input 14</name>
+    <value default="1" min="1" max="2048"/>
+  </lncv>
+  <lncv lncv="215">
+    <name language="en-us">Block address input 15</name>
+    <value default="1" min="1" max="2048"/>
+  </lncv>
+  <lncv lncv="216">
+    <name language="en-us">Block address input 16</name>
+    <value default="1" min="1" max="2048"/>
+  </lncv>
+  <lncv lncv="217">
+    <name language="en-us">Block address global input</name>
+    <value default="1" min="1" max="2048"/>
+  </lncv>
+  <lncv lncv="300">
+    <name language="en-us">Quick setup for exit delay (sets all detectors)</name>
+    <value default="750" min="150" max="1200" unit="ms"/>
+  </lncv>
+  <lncv lncv="301">
+    <name language="en-us">Exit delay input 1</name>
+    <value default="750" min="150" max="1200" unit="ms"/>
+  </lncv>
+  <lncv lncv="302">
+    <name language="en-us">Exit delay input 2</name>
+    <value default="750" min="150" max="1200" unit="ms"/>
+  </lncv>
+  <lncv lncv="303">
+    <name language="en-us">Exit delay input 3</name>
+    <value default="750" min="150" max="1200" unit="ms"/>
+  </lncv>
+  <lncv lncv="304">
+    <name language="en-us">Exit delay input 4</name>
+    <value default="750" min="150" max="1200" unit="ms"/>
+  </lncv>
+  <lncv lncv="305">
+    <name language="en-us">Exit delay input 5</name>
+    <value default="750" min="150" max="1200" unit="ms"/>
+  </lncv>
+  <lncv lncv="306">
+    <name language="en-us">Exit delay input 6</name>
+    <value default="750" min="150" max="1200" unit="ms"/>
+  </lncv>
+  <lncv lncv="307">
+    <name language="en-us">Exit delay input 7</name>
+    <value default="750" min="150" max="1200" unit="ms"/>
+  </lncv>
+  <lncv lncv="308">
+    <name language="en-us">Exit delay input 8</name>
+    <value default="750" min="150" max="1200" unit="ms"/>
+  </lncv>
+  <lncv lncv="309">
+    <name language="en-us">Exit delay input 9</name>
+    <value default="750" min="150" max="1200" unit="ms"/>
+  </lncv>
+  <lncv lncv="310">
+    <name language="en-us">Exit delay input 10</name>
+    <value default="750" min="150" max="1200" unit="ms"/>
+  </lncv>
+  <lncv lncv="311">
+    <name language="en-us">Exit delay input 11</name>
+    <value default="750" min="150" max="1200" unit="ms"/>
+  </lncv>
+  <lncv lncv="312">
+    <name language="en-us">Exit delay input 12</name>
+    <value default="750" min="150" max="1200" unit="ms"/>
+  </lncv>
+  <lncv lncv="313">
+    <name language="en-us">Exit delay input 13</name>
+    <value default="750" min="150" max="1200" unit="ms"/>
+  </lncv>
+  <lncv lncv="314">
+    <name language="en-us">Exit delay input 14</name>
+    <value default="750" min="150" max="1200" unit="ms"/>
+  </lncv>
+  <lncv lncv="315">
+    <name language="en-us">Exit delay input 15</name>
+    <value default="750" min="150" max="1200" unit="ms"/>
+  </lncv>
+  <lncv lncv="316">
+    <name language="en-us">Exit delay input 16</name>
+    <value default="750" min="150" max="1200" unit="ms"/>
+  </lncv>
+  <lncv lncv="317">
+    <name language="en-us">Exit delay global input</name>
+    <value default="750" min="150" max="1200" unit="ms"/>
+  </lncv>
+  <lncv lncv="400">
+    <name language="en-us">Quick setup for direction invert (sets all detectors)</name>
+    <value default="0">
+      <option value="0">
+        <name language="en-us">Off</name>
+      </option>
+      <option value="1">
+        <name language="en-us">On</name>
+      </option>
+    </value>
+  </lncv>
+  <lncv lncv="401">
+    <name language="en-us">Direction invert input 1</name>
+    <value default="0">
+      <option value="0">
+        <name language="en-us">Off</name>
+      </option>
+      <option value="1">
+        <name language="en-us">On</name>
+      </option>
+    </value>
+  </lncv>
+  <lncv lncv="402">
+    <name language="en-us">Direction invert input 2</name>
+    <value default="0">
+      <option value="0">
+        <name language="en-us">Off</name>
+      </option>
+      <option value="1">
+        <name language="en-us">On</name>
+      </option>
+    </value>
+  </lncv>
+  <lncv lncv="403">
+    <name language="en-us">Direction invert input 3</name>
+    <value default="0">
+      <option value="0">
+        <name language="en-us">Off</name>
+      </option>
+      <option value="1">
+        <name language="en-us">On</name>
+      </option>
+    </value>
+  </lncv>
+  <lncv lncv="404">
+    <name language="en-us">Direction invert input 4</name>
+    <value default="0">
+      <option value="0">
+        <name language="en-us">Off</name>
+      </option>
+      <option value="1">
+        <name language="en-us">On</name>
+      </option>
+    </value>
+  </lncv>
+  <lncv lncv="405">
+    <name language="en-us">Direction invert input 5</name>
+    <value default="0">
+      <option value="0">
+        <name language="en-us">Off</name>
+      </option>
+      <option value="1">
+        <name language="en-us">On</name>
+      </option>
+    </value>
+  </lncv>
+  <lncv lncv="406">
+    <name language="en-us">Direction invert input 6</name>
+    <value default="0">
+      <option value="0">
+        <name language="en-us">Off</name>
+      </option>
+      <option value="1">
+        <name language="en-us">On</name>
+      </option>
+    </value>
+  </lncv>
+  <lncv lncv="407">
+    <name language="en-us">Direction invert input 7</name>
+    <value default="0">
+      <option value="0">
+        <name language="en-us">Off</name>
+      </option>
+      <option value="1">
+        <name language="en-us">On</name>
+      </option>
+    </value>
+  </lncv>
+  <lncv lncv="408">
+    <name language="en-us">Direction invert input 8</name>
+    <value default="0">
+      <option value="0">
+        <name language="en-us">Off</name>
+      </option>
+      <option value="1">
+        <name language="en-us">On</name>
+      </option>
+    </value>
+  </lncv>
+  <lncv lncv="409">
+    <name language="en-us">Direction invert input 9</name>
+    <value default="0">
+      <option value="0">
+        <name language="en-us">Off</name>
+      </option>
+      <option value="1">
+        <name language="en-us">On</name>
+      </option>
+    </value>
+  </lncv>
+  <lncv lncv="410">
+    <name language="en-us">Direction invert input 10</name>
+    <value default="0">
+      <option value="0">
+        <name language="en-us">Off</name>
+      </option>
+      <option value="1">
+        <name language="en-us">On</name>
+      </option>
+    </value>
+  </lncv>
+  <lncv lncv="411">
+    <name language="en-us">Direction invert input 11</name>
+    <value default="0">
+      <option value="0">
+        <name language="en-us">Off</name>
+      </option>
+      <option value="1">
+        <name language="en-us">On</name>
+      </option>
+    </value>
+  </lncv>
+  <lncv lncv="412">
+    <name language="en-us">Direction invert input 12</name>
+    <value default="0">
+      <option value="0">
+        <name language="en-us">Off</name>
+      </option>
+      <option value="1">
+        <name language="en-us">On</name>
+      </option>
+    </value>
+  </lncv>
+  <lncv lncv="413">
+    <name language="en-us">Direction invert input 13</name>
+    <value default="0">
+      <option value="0">
+        <name language="en-us">Off</name>
+      </option>
+      <option value="1">
+        <name language="en-us">On</name>
+      </option>
+    </value>
+  </lncv>
+  <lncv lncv="414">
+    <name language="en-us">Direction invert input 14</name>
+    <value default="0">
+      <option value="0">
+        <name language="en-us">Off</name>
+      </option>
+      <option value="1">
+        <name language="en-us">On</name>
+      </option>
+    </value>
+  </lncv>
+  <lncv lncv="415">
+    <name language="en-us">Direction invert input 15</name>
+    <value default="0">
+      <option value="0">
+        <name language="en-us">Off</name>
+      </option>
+      <option value="1">
+        <name language="en-us">On</name>
+      </option>
+    </value>
+  </lncv>
+  <lncv lncv="416">
+    <name language="en-us">Direction invert input 16</name>
+    <value default="0">
+      <option value="0">
+        <name language="en-us">Off</name>
+      </option>
+      <option value="1">
+        <name language="en-us">On</name>
+      </option>
+    </value>
+  </lncv>
+  <lncv lncv="417">
+    <name language="en-us">Direction invert global input</name>
+    <value default="0">
+      <option value="0">
+        <name language="en-us">Off</name>
+      </option>
+      <option value="1">
+        <name language="en-us">On</name>
+      </option>
+    </value>
+  </lncv>
+</lncvmodule>
