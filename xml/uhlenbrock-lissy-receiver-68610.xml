@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  License: CC-BY-4.0 <https://creativecommons.org/licenses/by/4.0/>
+  GitHub: https://github.com/traintastic/lncv
+  Author(s): Reinder Feenstra
+-->
+<lncvmodule id="6861" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="lncvmodule.xsd">
+  <vendor>Uhlenbrock</vendor>
+  <name language="en-us">LISSY receiver 68610</name>
+  <name language="de-de">LISSY Empfänger 68610</name>
+  <name language="nl-nl">LISSY ontvanger 68610</name>
+  <lncv lncv="0">
+    <name language="en-us">Module address and first sensor address</name>
+    <name language="de-de">Moduladresse und erste Sensoradresse</name>
+    <name language="nl-nl">Module-adres en eerste sensor adres</name>
+    <value default="1" min="1" max="4095"/>
+  </lncv>
+  <lncv lncv="1">
+    <name language="en-us">Second sensor address</name>
+    <name language="de-de">Zweite Sensoradresse</name>
+    <name language="nl-nl">Tweede sensor adres</name>
+    <value default="2" min="1" max="4095"/>
+  </lncv>
+  <lncv lncv="2">
+    <name language="en-us">Function</name>
+    <name language="de-de">Funktion</name>
+    <name language="nl-nl">Functie</name>
+    <value default="2">
+      <option value="0">
+        <name language="en-us">Double sensor (Reports address, category, direction and speed)</name>
+        <name language="de-de">Doppelsensor (Ausgabe von Adresse, Kategorie, Fahrtrichtung und Geschwindigkeit)</name>
+        <name language="nl-nl">Dubbele sensor (Meld adres, categorie, richting en snelheid)</name>
+      </option>
+      <option value="1">
+        <name language="en-us">Two individual sensors (Reports address and category)</name>
+        <name language="de-de">Zwei Einzelsensoren (Ausgabe von Adresse und Kategorie)</name>
+        <name language="nl-nl">Twee onafhanklijke sensoren (Meld adres en categorie)</name>
+      </option>
+      <option value="2"/>
+      <option value="98">
+        <name language="en-us">Set all LNCVs to the value 0, except LNCV 0 and 1</name>
+        <name language="de-de">Alle LNCVs auf den Wert 0 setzen, ausser LNCV 0 und 1</name>
+        <name language="nl-nl">Zet alle LNCVs op de waarde 0, behalve LNCV 0 en 1</name>
+      </option>
+    </value>
+  </lncv>
+  <lncv lncv="14">
+    <name language="en-us">Report locomotive speed</name>
+    <name language="de-de">Ausgabe der Lokgeschwindigkeit</name>
+    <name language="nl-nl">Meld locomotief snelheid</name>
+    <value default="0"/>
+  </lncv>
+  <lncv lncv="15">
+    <name language="en-us">Transfer format</name>
+    <name language="de-de">Übergabeformats</name>
+    <name language="nl-nl">Overdracht formaat</name>
+    <value default="2">
+      <option value="0">
+        <name language="en-us">Disabled</name>
+        <name language="de-de">Deaktiviert</name>
+        <name language="nl-nl">Uitgeschakeld</name>
+      </option>
+      <option value="1">
+        <name language="en-us">Uhlenbrock with locomotive address and category</name>
+        <name language="de-de">Uhlenbrock mit Lokadresse und Kategorie</name>
+        <name language="nl-nl">Uhlenbrock met lokomotief adres en categorie</name>
+      </option>
+      <option value="2">
+        <name language="en-us">Digitrax with locomotive address and transponder exit block</name>
+        <name language="de-de">Digitrax mit Lokadresse und Block frei (Transponder exit block)</name>
+        <name language="nl-nl">Digitrax met locomotief adres en block vrij (Transponder exit block)</name>
+      </option>
+      <option value="3">
+        <name language="en-us">Digitrax with locomotive address and transponder enters block</name>
+        <name language="de-de">Digitrax mit Lokadresse und Block belegt (Transponder enters block)</name>
+        <name language="nl-nl">Digitrax met locomotief adres en block bezet (Transponder enters block)</name>
+      </option>
+    </value>
+  </lncv>
+</lncvmodule>
