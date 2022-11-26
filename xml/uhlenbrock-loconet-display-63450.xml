@@ -1,0 +1,708 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  License: CC-BY-4.0 <https://creativecommons.org/licenses/by/4.0/>
+  GitHub: https://github.com/traintastic/lncv
+  Author(s): Reinder Feenstra
+-->
+<lncvmodule id="6345" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="lncvmodule.xsd">
+  <vendor>Uhlenbrock</vendor>
+  <name language="en-us">LocoNet display 63450</name>
+  <name language="de-de">LocoNet-Display 63450</name>
+  <lncv lncv="0">
+    <name language="en-us">Module address</name>
+    <name language="de-de">Moduladresse</name>
+    <name language="nl-nl">Module-adres</name>
+    <value default="1" min="1"/>
+  </lncv>
+  <lncv lncv="1">
+    <name language="en-us">Display buffer 1: Indicator mode select</name>
+    <value default="1">
+      <option value="1">
+        <name language="en-us">Locomotive monitoring with speed step and display of all special functions</name>
+      </option>
+      <option value="2">
+        <name language="en-us">Locomotive monitoring with display speed step and change of special functions</name>
+      </option>
+      <option value="3">
+        <name language="en-us">Locomotive monitoring with display of all special functions and the speed in per cent</name>
+      </option>
+      <option value="4">
+        <name language="en-us">Locomotive monitoring with display of the change of special functions and the speed in per cent of</name>
+      </option>
+      <option value="5">
+        <name language="en-us">Display of Solenoid status</name>
+      </option>
+      <option value="6">
+        <name language="en-us">Display of feedback messages</name>
+      </option>
+      <option value="7">
+        <name language="en-us">Display of LISSY system messages</name>
+      </option>
+      <option value="8">
+        <name language="en-us">Display of IRIS remote controller</name>
+      </option>
+      <option value="9">
+        <name language="en-us">Model clock (Fast clock)</name>
+      </option>
+      <option value="10">
+        <name language="en-us">Set Time and Weekday</name>
+      </option>
+    </value>
+  </lncv>
+  <lncv lncv="2">
+    <name language="en-us">Display buffer 1: Address for indicator mode</name>
+    <value default="1"/>
+  </lncv>
+  <lncv lncv="3">
+    <name language="en-us">Display buffer 2: Indicator mode select</name>
+    <value default="2">
+      <option value="1">
+        <name language="en-us">Locomotive monitoring with speed step and display of all special functions</name>
+      </option>
+      <option value="2">
+        <name language="en-us">Locomotive monitoring with display speed step and change of special functions</name>
+      </option>
+      <option value="3">
+        <name language="en-us">Locomotive monitoring with display of all special functions and the speed in per cent</name>
+      </option>
+      <option value="4">
+        <name language="en-us">Locomotive monitoring with display of the change of special functions and the speed in per cent of</name>
+      </option>
+      <option value="5">
+        <name language="en-us">Display of Solenoid status</name>
+      </option>
+      <option value="6">
+        <name language="en-us">Display of feedback messages</name>
+      </option>
+      <option value="7">
+        <name language="en-us">Display of LISSY system messages</name>
+      </option>
+      <option value="8">
+        <name language="en-us">Display of IRIS remote controller</name>
+      </option>
+      <option value="9">
+        <name language="en-us">Model clock (Fast clock)</name>
+      </option>
+      <option value="10">
+        <name language="en-us">Set Time and Weekday</name>
+      </option>
+    </value>
+  </lncv>
+  <lncv lncv="4">
+    <name language="en-us">Display buffer 2: Address for indicator mode</name>
+    <value default="1"/>
+  </lncv>
+  <lncv lncv="5">
+    <name language="en-us">Display buffer 3: Indicator mode select</name>
+    <value default="3">
+      <option value="1">
+        <name language="en-us">Locomotive monitoring with speed step and display of all special functions</name>
+      </option>
+      <option value="2">
+        <name language="en-us">Locomotive monitoring with display speed step and change of special functions</name>
+      </option>
+      <option value="3">
+        <name language="en-us">Locomotive monitoring with display of all special functions and the speed in per cent</name>
+      </option>
+      <option value="4">
+        <name language="en-us">Locomotive monitoring with display of the change of special functions and the speed in per cent of</name>
+      </option>
+      <option value="5">
+        <name language="en-us">Display of Solenoid status</name>
+      </option>
+      <option value="6">
+        <name language="en-us">Display of feedback messages</name>
+      </option>
+      <option value="7">
+        <name language="en-us">Display of LISSY system messages</name>
+      </option>
+      <option value="8">
+        <name language="en-us">Display of IRIS remote controller</name>
+      </option>
+      <option value="9">
+        <name language="en-us">Model clock (Fast clock)</name>
+      </option>
+      <option value="10">
+        <name language="en-us">Set Time and Weekday</name>
+      </option>
+    </value>
+  </lncv>
+  <lncv lncv="6">
+    <name language="en-us">Display buffer 3: Address for indicator mode</name>
+    <value default="1"/>
+  </lncv>
+  <lncv lncv="7">
+    <name language="en-us">Display buffer 4: Indicator mode select</name>
+    <value default="4">
+      <option value="1">
+        <name language="en-us">Locomotive monitoring with speed step and display of all special functions</name>
+      </option>
+      <option value="2">
+        <name language="en-us">Locomotive monitoring with display speed step and change of special functions</name>
+      </option>
+      <option value="3">
+        <name language="en-us">Locomotive monitoring with display of all special functions and the speed in per cent</name>
+      </option>
+      <option value="4">
+        <name language="en-us">Locomotive monitoring with display of the change of special functions and the speed in per cent of</name>
+      </option>
+      <option value="5">
+        <name language="en-us">Display of Solenoid status</name>
+      </option>
+      <option value="6">
+        <name language="en-us">Display of feedback messages</name>
+      </option>
+      <option value="7">
+        <name language="en-us">Display of LISSY system messages</name>
+      </option>
+      <option value="8">
+        <name language="en-us">Display of IRIS remote controller</name>
+      </option>
+      <option value="9">
+        <name language="en-us">Model clock (Fast clock)</name>
+      </option>
+      <option value="10">
+        <name language="en-us">Set Time and Weekday</name>
+      </option>
+    </value>
+  </lncv>
+  <lncv lncv="8">
+    <name language="en-us">Display buffer 4: Address for indicator mode</name>
+    <value default="1"/>
+  </lncv>
+  <lncv lncv="9">
+    <name language="en-us">Display buffer 5: Indicator mode select</name>
+    <value default="5">
+      <option value="1">
+        <name language="en-us">Locomotive monitoring with speed step and display of all special functions</name>
+      </option>
+      <option value="2">
+        <name language="en-us">Locomotive monitoring with display speed step and change of special functions</name>
+      </option>
+      <option value="3">
+        <name language="en-us">Locomotive monitoring with display of all special functions and the speed in per cent</name>
+      </option>
+      <option value="4">
+        <name language="en-us">Locomotive monitoring with display of the change of special functions and the speed in per cent of</name>
+      </option>
+      <option value="5">
+        <name language="en-us">Display of Solenoid status</name>
+      </option>
+      <option value="6">
+        <name language="en-us">Display of feedback messages</name>
+      </option>
+      <option value="7">
+        <name language="en-us">Display of LISSY system messages</name>
+      </option>
+      <option value="8">
+        <name language="en-us">Display of IRIS remote controller</name>
+      </option>
+      <option value="9">
+        <name language="en-us">Model clock (Fast clock)</name>
+      </option>
+      <option value="10">
+        <name language="en-us">Set Time and Weekday</name>
+      </option>
+    </value>
+  </lncv>
+  <lncv lncv="10">
+    <name language="en-us">Display buffer 5: Address for indicator mode</name>
+    <value default="0"/>
+  </lncv>
+  <lncv lncv="11">
+    <name language="en-us">Display buffer 6: Indicator mode select</name>
+    <value default="5">
+      <option value="1">
+        <name language="en-us">Locomotive monitoring with speed step and display of all special functions</name>
+      </option>
+      <option value="2">
+        <name language="en-us">Locomotive monitoring with display speed step and change of special functions</name>
+      </option>
+      <option value="3">
+        <name language="en-us">Locomotive monitoring with display of all special functions and the speed in per cent</name>
+      </option>
+      <option value="4">
+        <name language="en-us">Locomotive monitoring with display of the change of special functions and the speed in per cent of</name>
+      </option>
+      <option value="5">
+        <name language="en-us">Display of Solenoid status</name>
+      </option>
+      <option value="6">
+        <name language="en-us">Display of feedback messages</name>
+      </option>
+      <option value="7">
+        <name language="en-us">Display of LISSY system messages</name>
+      </option>
+      <option value="8">
+        <name language="en-us">Display of IRIS remote controller</name>
+      </option>
+      <option value="9">
+        <name language="en-us">Model clock (Fast clock)</name>
+      </option>
+      <option value="10">
+        <name language="en-us">Set Time and Weekday</name>
+      </option>
+    </value>
+  </lncv>
+  <lncv lncv="12">
+    <name language="en-us">Display buffer 6: Address for indicator mode</name>
+    <value default="0"/>
+  </lncv>
+  <lncv lncv="13">
+    <name language="en-us">Display buffer 7: Indicator mode select</name>
+    <value default="6">
+      <option value="1">
+        <name language="en-us">Locomotive monitoring with speed step and display of all special functions</name>
+      </option>
+      <option value="2">
+        <name language="en-us">Locomotive monitoring with display speed step and change of special functions</name>
+      </option>
+      <option value="3">
+        <name language="en-us">Locomotive monitoring with display of all special functions and the speed in per cent</name>
+      </option>
+      <option value="4">
+        <name language="en-us">Locomotive monitoring with display of the change of special functions and the speed in per cent of</name>
+      </option>
+      <option value="5">
+        <name language="en-us">Display of Solenoid status</name>
+      </option>
+      <option value="6">
+        <name language="en-us">Display of feedback messages</name>
+      </option>
+      <option value="7">
+        <name language="en-us">Display of LISSY system messages</name>
+      </option>
+      <option value="8">
+        <name language="en-us">Display of IRIS remote controller</name>
+      </option>
+      <option value="9">
+        <name language="en-us">Model clock (Fast clock)</name>
+      </option>
+      <option value="10">
+        <name language="en-us">Set Time and Weekday</name>
+      </option>
+    </value>
+  </lncv>
+  <lncv lncv="14">
+    <name language="en-us">Display buffer 7: Address for indicator mode</name>
+    <value default="0"/>
+  </lncv>
+  <lncv lncv="15">
+    <name language="en-us">Display buffer 8: Indicator mode select</name>
+    <value default="6">
+      <option value="1">
+        <name language="en-us">Locomotive monitoring with speed step and display of all special functions</name>
+      </option>
+      <option value="2">
+        <name language="en-us">Locomotive monitoring with display speed step and change of special functions</name>
+      </option>
+      <option value="3">
+        <name language="en-us">Locomotive monitoring with display of all special functions and the speed in per cent</name>
+      </option>
+      <option value="4">
+        <name language="en-us">Locomotive monitoring with display of the change of special functions and the speed in per cent of</name>
+      </option>
+      <option value="5">
+        <name language="en-us">Display of Solenoid status</name>
+      </option>
+      <option value="6">
+        <name language="en-us">Display of feedback messages</name>
+      </option>
+      <option value="7">
+        <name language="en-us">Display of LISSY system messages</name>
+      </option>
+      <option value="8">
+        <name language="en-us">Display of IRIS remote controller</name>
+      </option>
+      <option value="9">
+        <name language="en-us">Model clock (Fast clock)</name>
+      </option>
+      <option value="10">
+        <name language="en-us">Set Time and Weekday</name>
+      </option>
+    </value>
+  </lncv>
+  <lncv lncv="16">
+    <name language="en-us">Display buffer 8: Address for indicator mode</name>
+    <value default="1"/>
+  </lncv>
+  <lncv lncv="17">
+    <name language="en-us">Display buffer 9: Indicator mode select</name>
+    <value default="7">
+      <option value="1">
+        <name language="en-us">Locomotive monitoring with speed step and display of all special functions</name>
+      </option>
+      <option value="2">
+        <name language="en-us">Locomotive monitoring with display speed step and change of special functions</name>
+      </option>
+      <option value="3">
+        <name language="en-us">Locomotive monitoring with display of all special functions and the speed in per cent</name>
+      </option>
+      <option value="4">
+        <name language="en-us">Locomotive monitoring with display of the change of special functions and the speed in per cent of</name>
+      </option>
+      <option value="5">
+        <name language="en-us">Display of Solenoid status</name>
+      </option>
+      <option value="6">
+        <name language="en-us">Display of feedback messages</name>
+      </option>
+      <option value="7">
+        <name language="en-us">Display of LISSY system messages</name>
+      </option>
+      <option value="8">
+        <name language="en-us">Display of IRIS remote controller</name>
+      </option>
+      <option value="9">
+        <name language="en-us">Model clock (Fast clock)</name>
+      </option>
+      <option value="10">
+        <name language="en-us">Set Time and Weekday</name>
+      </option>
+    </value>
+  </lncv>
+  <lncv lncv="18">
+    <name language="en-us">Display buffer 9: Address for indicator mode</name>
+    <value default="0"/>
+  </lncv>
+  <lncv lncv="19">
+    <name language="en-us">Display buffer 10: Indicator mode select</name>
+    <value default="7">
+      <option value="1">
+        <name language="en-us">Locomotive monitoring with speed step and display of all special functions</name>
+      </option>
+      <option value="2">
+        <name language="en-us">Locomotive monitoring with display speed step and change of special functions</name>
+      </option>
+      <option value="3">
+        <name language="en-us">Locomotive monitoring with display of all special functions and the speed in per cent</name>
+      </option>
+      <option value="4">
+        <name language="en-us">Locomotive monitoring with display of the change of special functions and the speed in per cent of</name>
+      </option>
+      <option value="5">
+        <name language="en-us">Display of Solenoid status</name>
+      </option>
+      <option value="6">
+        <name language="en-us">Display of feedback messages</name>
+      </option>
+      <option value="7">
+        <name language="en-us">Display of LISSY system messages</name>
+      </option>
+      <option value="8">
+        <name language="en-us">Display of IRIS remote controller</name>
+      </option>
+      <option value="9">
+        <name language="en-us">Model clock (Fast clock)</name>
+      </option>
+      <option value="10">
+        <name language="en-us">Set Time and Weekday</name>
+      </option>
+    </value>
+  </lncv>
+  <lncv lncv="20">
+    <name language="en-us">Display buffer 10: Address for indicator mode</name>
+    <value default="1"/>
+  </lncv>
+  <lncv lncv="21">
+    <name language="en-us">Display buffer 11: Indicator mode select</name>
+    <value default="8">
+      <option value="1">
+        <name language="en-us">Locomotive monitoring with speed step and display of all special functions</name>
+      </option>
+      <option value="2">
+        <name language="en-us">Locomotive monitoring with display speed step and change of special functions</name>
+      </option>
+      <option value="3">
+        <name language="en-us">Locomotive monitoring with display of all special functions and the speed in per cent</name>
+      </option>
+      <option value="4">
+        <name language="en-us">Locomotive monitoring with display of the change of special functions and the speed in per cent of</name>
+      </option>
+      <option value="5">
+        <name language="en-us">Display of Solenoid status</name>
+      </option>
+      <option value="6">
+        <name language="en-us">Display of feedback messages</name>
+      </option>
+      <option value="7">
+        <name language="en-us">Display of LISSY system messages</name>
+      </option>
+      <option value="8">
+        <name language="en-us">Display of IRIS remote controller</name>
+      </option>
+      <option value="9">
+        <name language="en-us">Model clock (Fast clock)</name>
+      </option>
+      <option value="10">
+        <name language="en-us">Set Time and Weekday</name>
+      </option>
+    </value>
+  </lncv>
+  <lncv lncv="22">
+    <name language="en-us">Display buffer 11: Address for indicator mode</name>
+    <value default="1"/>
+  </lncv>
+  <lncv lncv="23">
+    <name language="en-us">Display buffer 12: Indicator mode select</name>
+    <value default="8">
+      <option value="1">
+        <name language="en-us">Locomotive monitoring with speed step and display of all special functions</name>
+      </option>
+      <option value="2">
+        <name language="en-us">Locomotive monitoring with display speed step and change of special functions</name>
+      </option>
+      <option value="3">
+        <name language="en-us">Locomotive monitoring with display of all special functions and the speed in per cent</name>
+      </option>
+      <option value="4">
+        <name language="en-us">Locomotive monitoring with display of the change of special functions and the speed in per cent of</name>
+      </option>
+      <option value="5">
+        <name language="en-us">Display of Solenoid status</name>
+      </option>
+      <option value="6">
+        <name language="en-us">Display of feedback messages</name>
+      </option>
+      <option value="7">
+        <name language="en-us">Display of LISSY system messages</name>
+      </option>
+      <option value="8">
+        <name language="en-us">Display of IRIS remote controller</name>
+      </option>
+      <option value="9">
+        <name language="en-us">Model clock (Fast clock)</name>
+      </option>
+      <option value="10">
+        <name language="en-us">Set Time and Weekday</name>
+      </option>
+    </value>
+  </lncv>
+  <lncv lncv="24">
+    <name language="en-us">Display buffer 12: Address for indicator mode</name>
+    <value default="2"/>
+  </lncv>
+  <lncv lncv="25">
+    <name language="en-us">Display buffer 13: Indicator mode select</name>
+    <value default="8">
+      <option value="1">
+        <name language="en-us">Locomotive monitoring with speed step and display of all special functions</name>
+      </option>
+      <option value="2">
+        <name language="en-us">Locomotive monitoring with display speed step and change of special functions</name>
+      </option>
+      <option value="3">
+        <name language="en-us">Locomotive monitoring with display of all special functions and the speed in per cent</name>
+      </option>
+      <option value="4">
+        <name language="en-us">Locomotive monitoring with display of the change of special functions and the speed in per cent of</name>
+      </option>
+      <option value="5">
+        <name language="en-us">Display of Solenoid status</name>
+      </option>
+      <option value="6">
+        <name language="en-us">Display of feedback messages</name>
+      </option>
+      <option value="7">
+        <name language="en-us">Display of LISSY system messages</name>
+      </option>
+      <option value="8">
+        <name language="en-us">Display of IRIS remote controller</name>
+      </option>
+      <option value="9">
+        <name language="en-us">Model clock (Fast clock)</name>
+      </option>
+      <option value="10">
+        <name language="en-us">Set Time and Weekday</name>
+      </option>
+    </value>
+  </lncv>
+  <lncv lncv="26">
+    <name language="en-us">Display buffer 13: Address for indicator mode</name>
+    <value default="3"/>
+  </lncv>
+  <lncv lncv="27">
+    <name language="en-us">Display buffer 14: Indicator mode select</name>
+    <value default="8">
+      <option value="1">
+        <name language="en-us">Locomotive monitoring with speed step and display of all special functions</name>
+      </option>
+      <option value="2">
+        <name language="en-us">Locomotive monitoring with display speed step and change of special functions</name>
+      </option>
+      <option value="3">
+        <name language="en-us">Locomotive monitoring with display of all special functions and the speed in per cent</name>
+      </option>
+      <option value="4">
+        <name language="en-us">Locomotive monitoring with display of the change of special functions and the speed in per cent of</name>
+      </option>
+      <option value="5">
+        <name language="en-us">Display of Solenoid status</name>
+      </option>
+      <option value="6">
+        <name language="en-us">Display of feedback messages</name>
+      </option>
+      <option value="7">
+        <name language="en-us">Display of LISSY system messages</name>
+      </option>
+      <option value="8">
+        <name language="en-us">Display of IRIS remote controller</name>
+      </option>
+      <option value="9">
+        <name language="en-us">Model clock (Fast clock)</name>
+      </option>
+      <option value="10">
+        <name language="en-us">Set Time and Weekday</name>
+      </option>
+    </value>
+  </lncv>
+  <lncv lncv="28">
+    <name language="en-us">Display buffer 14: Address for indicator mode</name>
+    <value default="4"/>
+  </lncv>
+  <lncv lncv="29">
+    <name language="en-us">Display buffer 15: Indicator mode select</name>
+    <value default="9">
+      <option value="1">
+        <name language="en-us">Locomotive monitoring with speed step and display of all special functions</name>
+      </option>
+      <option value="2">
+        <name language="en-us">Locomotive monitoring with display speed step and change of special functions</name>
+      </option>
+      <option value="3">
+        <name language="en-us">Locomotive monitoring with display of all special functions and the speed in per cent</name>
+      </option>
+      <option value="4">
+        <name language="en-us">Locomotive monitoring with display of the change of special functions and the speed in per cent of</name>
+      </option>
+      <option value="5">
+        <name language="en-us">Display of Solenoid status</name>
+      </option>
+      <option value="6">
+        <name language="en-us">Display of feedback messages</name>
+      </option>
+      <option value="7">
+        <name language="en-us">Display of LISSY system messages</name>
+      </option>
+      <option value="8">
+        <name language="en-us">Display of IRIS remote controller</name>
+      </option>
+      <option value="9">
+        <name language="en-us">Model clock (Fast clock)</name>
+      </option>
+      <option value="10">
+        <name language="en-us">Set Time and Weekday</name>
+      </option>
+    </value>
+  </lncv>
+  <lncv lncv="30">
+    <name language="en-us">Display buffer 15: Address for indicator mode</name>
+    <value default="0"/>
+  </lncv>
+  <lncv lncv="31">
+    <name language="en-us">Display buffer 16: Indicator mode select</name>
+    <value default="10">
+      <option value="1">
+        <name language="en-us">Locomotive monitoring with speed step and display of all special functions</name>
+      </option>
+      <option value="2">
+        <name language="en-us">Locomotive monitoring with display speed step and change of special functions</name>
+      </option>
+      <option value="3">
+        <name language="en-us">Locomotive monitoring with display of all special functions and the speed in per cent</name>
+      </option>
+      <option value="4">
+        <name language="en-us">Locomotive monitoring with display of the change of special functions and the speed in per cent of</name>
+      </option>
+      <option value="5">
+        <name language="en-us">Display of Solenoid status</name>
+      </option>
+      <option value="6">
+        <name language="en-us">Display of feedback messages</name>
+      </option>
+      <option value="7">
+        <name language="en-us">Display of LISSY system messages</name>
+      </option>
+      <option value="8">
+        <name language="en-us">Display of IRIS remote controller</name>
+      </option>
+      <option value="9">
+        <name language="en-us">Model clock (Fast clock)</name>
+      </option>
+      <option value="10">
+        <name language="en-us">Set Time and Weekday</name>
+      </option>
+    </value>
+  </lncv>
+  <lncv lncv="32">
+    <name language="en-us">Display buffer 16: Address for indicator mode</name>
+    <value default="0"/>
+  </lncv>
+  <lncv lncv="33">
+    <name language="en-us">Solenoid start address for changing-of the display</name>
+    <value default="200" min="1" max="2048"/>
+  </lncv>
+  <lncv lncv="34">
+    <name language="en-us">Clock mode</name>
+    <value default="0">
+      <option value="0">
+        <name language="en-us">0: No synchronisation via LocoNet</name>
+      </option>
+      <option value="1">
+        <name language="en-us">1: Master does not send cyclically Slot Write answers to Slot Request DATA (Intellibox, TwinCenter, DAISY, 6021-Adapter)</name>
+      </option>
+      <option value="2">
+        <name language="en-us">2: Master answers only to Slot Request Data</name>
+      </option>
+      <option value="3">
+        <name language="en-us">3: Slave sends nothing, synchronizes via all receivers Slot Write and Slot Read Messages (Intellibox, TwinCenter, DAISY, 6021-Adapter)</name>
+      </option>
+      <option value="4">
+        <name language="en-us">4: Slave sends cyclically Slot Request Data and then receives the Slot data from the master</name>
+      </option>
+    </value>
+  </lncv>
+  <lncv lncv="35">
+    <name language="en-us">Synchronisation via LocoNet interval</name>
+    <value default="180" min="1" max="255" unit="s"/>
+  </lncv>
+  <lncv lncv="36">
+    <name language="en-us">Clock divisors for the model train time</name>
+    <value default="10" min="1" max="127"/>
+  </lncv>
+  <lncv lncv="37">
+    <name language="en-us">Weekday</name>
+    <value default="2" min="1" max="7"/>
+  </lncv>
+  <lncv lncv="38">
+    <name language="en-us">Hour</name>
+    <value default="8" min="0" max="23"/>
+  </lncv>
+  <lncv lncv="39">
+    <name language="en-us">Minute</name>
+    <value default="0" min="0" max="59"/>
+  </lncv>
+  <lncv lncv="40">
+    <name language="en-us">Buffering of the values from keyboard input (display mode 10) in LNCV 37-39</name>
+    <value default="0">
+      <option value="0">
+        <name language="en-us">Do not store</name>
+      </option>
+      <option value="1">
+        <name language="en-us">Store</name>
+      </option>
+    </value>
+  </lncv>
+  <lncv lncv="41">
+    <name language="en-us">Display brightness</name>
+    <value default="255" min="0" max="255"/>
+  </lncv>
+  <lncv lncv="42">
+    <name language="en-us">Display of operation</name>
+    <value default="4" min="0" max="255" gain="0.5" unit="s"/>
+  </lncv>
+  <lncv lncv="43">
+    <name language="en-us">Display time of the greeting text</name>
+    <value default="4" min="0" max="255" gain="0.5" unit="s"/>
+  </lncv>
+</lncvmodule>

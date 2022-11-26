@@ -14,5 +14,6 @@ Ordered alphabatically by vendor:
   - [DR5088RC DIGIDETECT](xml/digikeijs-dr5088rc-digidetect.xml)
 - **Uhlenbrock**
   - [LISSY receiver (68610)](xml/uhlenbrock-lissy-receiver-68610.xml)
+  - [LocoNet display (63450)](xml/uhlenbrock-loconet-display-63450.xml)
   - [S88 LocoNet adaptor (63880)](xml/uhlenbrock-s88-loconet-adaptor-63880.xml)
   - [USB LocoNet interface (63120)](xml/uhlenbrock-usb-loconet-interface-63120.xml)
