@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--
-  License: CC-BY-4.0 <https://creativecommons.org/licenses/by/4.0/>
-  GitHub: https://github.com/traintastic/lncv
-  Author(s): Reinder Feenstra
--->
 <lncvmodule id="5088" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="lncvmodule.xsd">
+  <license url="https://creativecommons.org/licenses/by/4.0/">CC-BY-4.0</license>
+  <source url="https://github.com/traintastic/lncv">LNCV @ GitHub</source>
+  <author>Reinder Feenstra</author>
+  <author>Reinder Feenstra 2</author>
   <vendor>Digikeijs</vendor>
   <name>DR5088RC</name>
   <lncv lncv="0">
